@@ -1,17 +1,25 @@
 .App{
-  text-align: center;
   width: 50%;
   margin:2rem auto;
+  text-align: center;
 }
 #app-title{
-  font-family: 'Source Serif Pro', serif;
-  font-size: 4rem;
   margin: 3rem 0;
+  font-size: 4rem;
+  font-family: 'Source Serif Pro', serif;
 }
 #color-text{
+  margin: 5rem 0 1rem 0;
+  padding: 3rem ;
+  font-size: 3rem;
   font-family: 'Source Serif Pro', serif;
   font-style: italic;
-  font-size: 3rem;
-  margin: 3rem 0;
   word-wrap: break-word ;
+  border-radius: 5px;
+}
+
+@media (max-width:700px)  {
+  .App{
+    width: 90%;
+  }
 }
