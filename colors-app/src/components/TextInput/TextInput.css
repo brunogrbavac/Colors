@@ -1,0 +1,11 @@
+#color-text-input{
+    width:100%;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    height: 5rem;
+    margin: 0 0 3rem 0;
+    padding: 0.2rem 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
